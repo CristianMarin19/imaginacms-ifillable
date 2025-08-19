@@ -1,31 +1,33 @@
 {
-    "name": "imagina/ifillable",
-    "description": "",
-    "authors": [
-        {
-            "name": "Imagina Colombia",
-            "email": "soporte@imaginacolombia.com"
-        }
-    ],
-    "extra": {
-        "laravel": {
-            "providers": [],
-            "aliases": {}
-        }
-    },
-    "autoload": {
-        "psr-4": {
-            "Modules\\Ifillable\\": "app/",
-            "Modules\\Ifillable\\Database\\Factories\\": "database/factories/",
-            "Modules\\Ifillable\\Database\\Seeders\\": "database/Seeders/"
-        },
-        "files": [
-            "Support/helpers.php"
-        ]
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Modules\\Ifillable\\Tests\\": "tests/"
-        }
+  "name": "imagina/ifillable",
+  "description": "",
+  "type": "laravel-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Imagina Colombia",
+      "email": "soporte@imaginacolombia.com"
     }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [],
+      "aliases": {}
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\Ifillable\\": "app/",
+      "Modules\\Ifillable\\Database\\Factories\\": "database/factories/",
+      "Modules\\Ifillable\\Database\\Seeders\\": "database/Seeders/"
+    },
+    "files": [
+      "Support/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Modules\\Ifillable\\Tests\\": "tests/"
+    }
+  }
 }
