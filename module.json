@@ -1,0 +1,14 @@
+
+{
+    "name": "Ifillable",
+    "alias": "ifillable",
+    "description": "manage ifillable",
+    "keywords": ["ifillable"],
+    "priority": 0,
+    "providers": [
+        "Modules\\Ifillable\\Providers\\IfillableServiceProvider"
+    ],
+    "files": [
+        "Support/helpers.php"
+    ]
+}
